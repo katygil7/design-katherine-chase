@@ -6,10 +6,10 @@ body {
 div.row {
     border: 1px dashed blue;
 }
-/* !*cell color *!*/
-/*div.row > div {*/
-/*    border: 1px solid red;*/
-/*}*/
+ /*cell color */
+div.row > div {
+    border: 1px solid red;
+}
 div.tall-row {
     height: 300px;
 }
@@ -54,4 +54,6 @@ div.tall-row {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 50px;
+}
+.selectedwork {
 }
