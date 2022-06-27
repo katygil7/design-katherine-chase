@@ -55,6 +55,11 @@ div.tall-row {
     margin-right: 50px;
     margin-top: 50px;
 }
-.firstselected{
-    padding:;
-}
+/*.lasttweet {*/
+/*    align-self: flex-end;*/
+/*}*/
+/*@include media-breakpoint-up(xl) {*/
+/*    .lasttweet {*/
+/*        align-self: auto;*/
+/*    }*/
+/*};*/
