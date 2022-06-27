@@ -16,3 +16,17 @@ div.tall-row {
 .icons {
     color: #00ABA9;
 }
+.col-4 p{
+    font-weight: bold;
+}
+.col-5 p{
+    font-weight: bolder;
+}
+div .col-2{
+    border-radius: 50%;
+    height: 50%;
+
+    background-color: #E6563B;
+/*    I was just playing with the circles ;)*/
+}
+
