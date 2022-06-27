@@ -7,26 +7,34 @@ div.row {
     border: 1px dashed blue;
 }
 /* cell color */
-div.row > div {
-    border: 1px solid red;
-}
+/*div.row > div {*/
+/*    border: 1px solid red;*/
+/*}*/
 div.tall-row {
     height: 300px;
 }
 .icons {
     color: #00ABA9;
 }
-.col-4 p{
-    font-weight: bold;
-}
-.col-5 p{
+.title{
     font-weight: bolder;
+}
+.subtitle{
+    font-weight: bold;
 }
 div .col-2{
     border-radius: 50%;
     height: 50%;
-
     background-color: #E6563B;
 /*    I was just playing with the circles ;)*/
+}
+.circleicon{
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    border-color: white;
+    background-color: #E6563B;
+
+
 }
 
