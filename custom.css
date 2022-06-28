@@ -2,9 +2,29 @@ body {
     height: 100vh;
     background-color: #F0F0F0;
 }
-@media (min-width: 300px) and (max-width: 700px) {
+@media (min-width: 300px) and (max-width: 768px) {
     body{
-        background-color: darkolivegreen;
+        background-color: #395908;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-color: #56860b;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    body{
+        background-color: #83c41b;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    body{
+        background-color: #bff16e;
+    }
+}
+@media (min-width: 1400px) {
+    body{
+        background-color: #d4efaa;
     }
 }
 /*!* row color *!*/
