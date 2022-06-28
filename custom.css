@@ -2,31 +2,43 @@ body {
     height: 100vh;
     background-color: #F0F0F0;
 }
-@media (min-width: 300px) and (max-width: 768px) {
-    body{
-        background-color: #395908;
+
+@media (max-width: 576px) {
+    body {
+        background-color: rgba(52, 72, 20, 0.93);
     }
 }
+
+@media (min-width: 576px) and (max-width: 768px) {
+    body {
+        background-color: #43670b;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 992px) {
-    body{
+    body {
         background-color: #56860b;
     }
 }
+
 @media (min-width: 992px) and (max-width: 1200px) {
-    body{
+    body {
         background-color: #83c41b;
     }
 }
+
 @media (min-width: 1200px) and (max-width: 1400px) {
-    body{
+    body {
         background-color: #bff16e;
     }
 }
+
 @media (min-width: 1400px) {
-    body{
+    body {
         background-color: #d4efaa;
     }
 }
+
 /*!* row color *!*/
 /*div.row {*/
 /*    border: 1px dashed blue;*/
@@ -38,16 +50,20 @@ body {
 div.tall-row {
     height: 300px;
 }
+
 .icons {
     color: #00ABA9;
 }
-.title{
+
+.title {
     font-weight: bolder;
 }
-.subtitle{
+
+.subtitle {
     font-weight: bold;
 }
-.smallicons{
+
+.smallicons {
     height: 18px;
     width: 18px;
     border-radius: 50%;
@@ -58,7 +74,8 @@ div.tall-row {
     font-weight: bolder;
 
 }
-.circleicon{
+
+.circleicon {
     height: 9em;
     width: 9em;
     border-radius: 50%;
@@ -71,7 +88,8 @@ div.tall-row {
     font-weight: bold;
 
 }
-.hr{
+
+.hr {
     display: block;
     content: "";
     height: 1px;
@@ -80,9 +98,12 @@ div.tall-row {
     margin-right: 50px;
     margin-top: 50px;
 }
-.antonreg{
+
+.antonreg {
     font-family: 'Anton', sans-serif;
 }
-.abelreg{
+
+.abelreg {
     font-family: 'Abel', sans-serif;
 }
+
