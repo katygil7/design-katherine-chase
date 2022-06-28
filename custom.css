@@ -2,12 +2,15 @@ body {
     height: 100vh;
     background-color: #F0F0F0;
 }
-.navbar-brand{
+
+.navbar-brand {
     cursor: alias;
 }
-.nav-link{
+
+.nav-link {
     cursor: alias;
 }
+
 @media (max-width: 576px) {
     body {
         background-color: rgba(84, 116, 53, 0.93);
@@ -94,7 +97,6 @@ div.tall-row {
     color: white;
     font-weight: bold;
     cursor: alias;
-
 }
 
 .hr {
@@ -114,7 +116,8 @@ div.tall-row {
 .abelreg {
     font-family: 'Abel', sans-serif;
 }
-#topb{
+
+#topb {
     text-decoration: none;
     color: whitesmoke;
     font-family: 'Abel', sans-serif;
@@ -124,8 +127,6 @@ div.tall-row {
     padding: 5px;
     border: 1px solid white;
     cursor: alias;
-
-
 
 
 }
